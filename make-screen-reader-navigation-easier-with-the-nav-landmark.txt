@@ -1,7 +1,6 @@
 <body>
   <header>
     <h1>Training with Camper Cat</h1>
-
     <nav>
       <ul>
         <li><a href="#stealth">Stealth &amp; Agility</a></li>
