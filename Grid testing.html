@@ -1,0 +1,28 @@
+<style>
+    .item1{background-color: lightskyblue;}
+    .item2{background-color:lightsalmon ;}
+    .item3{background-color:paleturquoise ;}
+    .item4{background-color: lightpink;}
+    .item5{background-color: palegreen;}
+    .container{
+        font-size: 40px;
+        min-height: 300px;
+        width:100%;
+        background-color: lightgray;
+        display:relative;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:10px;
+        grid-template-areas:
+  "header header header"
+  "advert content content"
+  "footer footer footer"
+    }
+    </style>
+    <div class="container">
+    <div class="item1">This </div>
+    <div class="item2">is </div>
+    <div class="item3">my</div>
+    <div class="item4">first</div>
+    <div class="item5">grid</div>
+    </div>
